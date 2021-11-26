@@ -1,0 +1,1191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <style>
+        .body1 {
+            background-color: #272D3A;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: justify;
+        
+
+        }
+        div.q1 {
+            font-size:small;
+            position: relative;
+            left: 110px;
+            top: -50px;
+
+        }
+        .q2 {
+            position: relative;            
+            top: -130px;
+        }
+        div.q3 {
+            position: relative;
+            top: -20px
+        }
+
+        div.s32 {
+            position: relative;
+            top: -20px;
+        }
+
+        div.s33 {
+            position: relative;
+            top: -40px;
+        }
+
+        .q4 {
+            position: relative;
+            top: -60px;
+        }
+        
+        div.w1 {
+            position: relative;
+            top: -30px;
+            left: 40px;
+        }
+        div.a1 {
+            position: relative;
+            left: 80px;
+
+        }
+        div.a2 {
+            position: relative;
+            top: -10px;
+            left: 170px;
+        }
+
+        div.w3 {
+            position: relative;
+            top: -35px;
+            left: 65px;
+        }
+        .s1 {
+            font-size: 15px;
+        }
+        .s2 {
+            font-size: 14px;
+        }
+       .ha {
+           position: relative;
+           left: 30px;
+       }
+
+       .bv {
+           position: relative;
+           left: 60px;
+       }
+       .fb1 {
+           position: relative;
+           left: 90px;
+           
+       }
+       /* aa */
+    .carousel-inner img {
+        width: 100%;
+        height: 100%;
+    }
+        div.noibat {
+            margin-left: 25px;
+        }
+        div.nb4 {
+            position: relative;
+            left: 1000px;
+            top: -350px;
+        }
+      
+
+        div.nb5 {
+            position: relative;
+            left: 100px;
+            top: -300px;
+        }
+
+        div.nb3 {
+            position: relative;
+            left: 225px;
+        }
+
+        div.NB5{
+            position: relative;
+            top: -40px;
+        }
+
+        div.nb67 {
+            position: relative;
+            top: -98px;
+            left: -3px;
+        }
+        
+       
+        .send {
+            color: #666;
+            font-size: 15px;
+            line-height: 24px;
+            font-weight: bold;
+        }
+    .nt01 {
+            color: azure;
+            font-size: 24px;
+            margin-left: -20px;
+            margin-top: 30px;
+        }
+
+        .damtrang {
+            font-size: 1.6rem;
+            line-height: 24px;
+            color: rgb(65, 21, 21);
+
+        }
+        .dennho {
+                display: inline-block;
+                color: #000;
+                font-weight: normal;
+                font-size: 16px;
+
+        }
+       .textq {
+        color:#666;
+        font-size: 1.6rem;
+        line-height: 24px;
+         text-align: center;
+          margin-top: 31px;
+       }
+
+       .send1 {
+           font-size: 16px;
+       }
+
+       div.vanhanh {
+           margin-left: 300px;
+           
+       }
+       div.vanhanh1 {
+           margin-right: 300px;
+           text-align: center;
+       }
+       div.ngoaithat {
+           margin-right: 300px;
+       }
+
+       div.noithat {
+           margin-left: 300px;
+           margin-right: 300px;
+       }
+   
+
+       div.tiengnhi {
+            margin-left: 300px;
+            margin-right: 300px;
+       }
+
+       tr.d11 {
+        width: 100px;
+
+       }
+
+       .order {
+           color: #0066FF;
+           font-size: 35px;
+           font-family: 'Courier New', Courier, monospace;
+           font-weight: bold;
+       }
+       .fixed{
+                height: 50px;
+                line-height: 30px;
+                background: red;
+                color: #fff;
+                position: fixed;
+                width: 15%;
+                top: 760px;
+                font-size: 30px;
+                text-align: center ;
+                padding: 8px 0px;
+                border-bottom-right-radius: 70px;
+                border-top-right-radius: 70px;
+                border-bottom-left-radius: 70px;
+                border-top-left-radius: 70px;
+            }
+        .fb {
+            height: 120px;
+            background:#fff;
+            position: fixed;
+            top: 450px;
+            margin-left: 10px;
+            padding-top: 10px;
+            border-bottom-right-radius: 50px;
+                border-top-right-radius: 50px;
+                border-bottom-left-radius: 50px;
+                border-top-left-radius: 50px;
+            
+        }
+
+        .dk {
+            height: 40px;
+            background-color: #FF3030;
+            position: fixed;
+            top: 400px;
+            right: 0px;
+            color: #fff;
+            text-align: center;
+            width: 175px;
+            font-size: 20px;
+            border-bottom-left-radius: 70px;
+            border-top-left-radius: 70px;
+
+        }
+        
+        .dl {
+            height: 40px;
+            background-color: #FF3030;
+            position: fixed;
+            top: 450px;
+            right: 0px;
+            color: #fff;
+            text-align: center;
+            width: 225px;
+            font-size: 20px;
+            padding: 4px;
+            border-bottom-left-radius: 70px;
+            border-top-left-radius: 70px;
+
+
+        }
+        .image {
+            position: relative;
+            top: -200px;
+            left: 750px;
+        }
+
+        div.detail {
+            position: relative;
+            left: 350px;
+            top: 100px;
+
+        }
+        div.men {
+            margin-left: 75px;
+        }
+
+        div.dc {
+            margin-left: 10px;
+        }
+        .affix {
+            top: 0;
+            width: 63.5%;
+            z-index: 9999 !important;
+            
+        }
+
+        .affix + .container-fluid {
+            padding-top: 350px;
+        }
+    </style>
+</head>
+<body>
+    
+
+
+    <div class="chitiet">
+        <div class="detail">
+            <p style="font-size: 30px;">GRAND I10</p>
+            <p style="font-size: 20px;">NHẤN NÚT KHỞI ĐỘNG CUỘC SỐNG <br> MỚI</p>
+            <p>- Thiết kế cá tính, thời trang</p>
+            <p>- Kết nối không giới hạn</p>
+            <p>- Bền bỉ, mạnh mẽ và an toàn</p>
+            <p>- Bền bỉ, mạnh mẽ tinh tế</p>
+            <button style="background-color: #0066FF;width: 175px;height: 40px;font-size: 18px;color: #fff;">DỰ TOÁN CHI PHÍ </button>
+        </div>
+            <div class="image">
+                <img src="GRAND-I10.png" alt="" style="width: 600px;">
+            </div>    
+    </div>
+
+    <div class="danhgia">
+        <div style="color: #0066FF;font-weight: bold;">
+            <table style="margin-left: 350px;">
+                <tr>
+                    <td>
+                        <div >Đánh giá xe grand - I10
+                            <img src="" alt="">
+                        </div>
+                    </td>
+                    <td>
+                        <div style="margin-left: 60px;">Đánh giá xe (News)
+                            <img src="" alt="">
+                        </div>
+                    </td>
+                    <td>
+                        <div style="margin-left: 60px;">Đánh giá xe (News1)
+                            <img src="" alt="">
+                        </div>
+                    </td>
+                    <td>
+                        <div style="margin-left: 60px;">Đánh giá xe (News2)
+                            <img src="" alt="">
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div>Đánh giá xe (News3)
+                            <img src="" alt="">
+                        </div>
+                    </td>
+                    <td>
+                        <div style="margin-left: 60px;">Đánh giá xe (News4)
+                            <img src="" alt="">
+                        </div>
+                    </td>
+                </tr>
+            
+            
+        </div>
+    </div>
+
+    <div class="hinhanh">
+        <div>
+            <div>
+                <table style="margin-left: 350px;">
+                    <tr>
+                        <tr>
+                            <p>Tổng quan</p>
+                            <p>Nội thất</p>
+                            <p>Ngoại thất</p>
+                        </tr>
+                    </tr>
+                    <tr>
+                        <td><div>
+                            <img src="ha1.png" alt="" onclick="document.getElementById('id01').style.display='block'">
+                                <div id="id01" class="w3-modal">
+                                    <div class="w3-modal-content">
+                                    <div class="w3-container">
+                                        <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                                        <img src="f1.png" alt="" style="margin-top: 50px;margin-left: -150px;">
+                                    </div>
+                                    </div>
+                                </div>
+                        </div></td>
+                        <td>
+                            <img src="ha2.png" alt="" style="height: 100px ;width: 200px;" onclick="document.getElementById('id02').style.display='block'">
+                            <div id="id02" class="w3-modal">
+                                <div class="w3-modal-content">
+                                <div class="w3-container">
+                                    <span onclick="document.getElementById('id02').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                                    <img src="f2.png" alt="" style="width: 800px    ; height: 350px;padding: 20px 20px 20px 20px;" >
+                                </div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="topnoithat">
+                <table style="margin-left: 350px;">
+                    
+                    <td>
+                        <div >
+                            <img src="ha3.png" alt="" style="height: 100px ;width: 200px;" onclick="document.getElementById('id03').style.display='block'">
+                            <div id="id03" class="w3-modal">
+                                <div class="w3-modal-content">
+                                <div class="w3-container">
+                                    <span onclick="document.getElementById('id03').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                                    <img src="f3.jpg" alt="" style="width: 850px    ; height: 500px;padding: 20px 20px 20px 20px;" >
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <div style="margin-left: 50px; ">
+                            <img src="ha3.png" alt="" style="height: 100px ;width: 200px;" onclick="document.getElementById('id03').style.display='block'">
+                            <div id="id03" class="w3-modal">
+                                <div class="w3-modal-content">
+                                <div class="w3-container">
+                                    <span onclick="document.getElementById('id03').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                                    <img src="f3.jpg" alt="" style="width: 850px    ; height: 500px;padding: 20px 20px 20px 20px;" >
+                                </div>
+                                </div>
+                            </div>                        </div>
+                    </td>
+                    <td>
+                        <div style="margin-left: 50px;">
+                            <img src="ha4.png" alt="" style="height: 100px ;width: 200px;" onclick="document.getElementById('id04').style.display='block'">
+                            <div id="id04" class="w3-modal">
+                                <div class="w3-modal-content">
+                                <div class="w3-container">
+                                    <span onclick="document.getElementById('id04').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                                    <img src="f4.jpg" alt="" style="width: 850px    ; height: 500px;padding: 20px 20px 20px 20px;" >
+                                </div>
+                                </div>
+                            </div>                        </div>
+                    </td>
+                    <td>
+                        <div style="margin-left: 50px;">
+                            <img src="ha5.png" alt="" style="height: 100px ;width: 200px;" onclick="document.getElementById('id05').style.display='block'">
+                            <div id="id05" class="w3-modal">
+                                <div class="w3-modal-content">
+                                <div class="w3-container">
+                                    <span onclick="document.getElementById('id05').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                                    <img src="f5.jpg" alt="" style="width: 850px    ; height: 500px;padding: 20px 20px 20px 20px;" >
+                                </div>
+                                </div>
+                            </div>                        
+                        </div>
+                    </td>
+                </table>
+            </div>
+
+            <div class="topngoaithat">
+                <div>
+                    <div>
+                        <table style="margin-left: 350px;">
+                            <tr>
+                                <td>
+                                    <div >
+                                        <img src="p1.png" alt="" style="height: 100px ;width: 200px;" onclick="document.getElementById('idz1').style.display='block'">
+                                        <div id="idz1" class="w3-modal">
+                                            <div class="w3-modal-content">
+                                            <div class="w3-container">
+                                                <span onclick="document.getElementById('idz1').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                                                <img src="c1.jpg" alt="" style="width: 850px    ; height: 500px;padding: 20px 20px 20px 20px;" >
+                                            </div>
+                                            </div>
+                                        </div>                                     
+                                    </div>
+                                </td>
+                                <td>
+                                    <div style="margin-left: 50px;" >
+                                        <img src="p2.png" alt="" style="height: 100px ;width: 200px;" onclick="document.getElementById('idz2').style.display='block'">
+                                        <div id="idz2" class="w3-modal">
+                                            <div class="w3-modal-content">
+                                            <div class="w3-container">
+                                                <span onclick="document.getElementById('idz2').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                                                <img src="c2.jpg" alt="" style="width: 850px    ; height: 500px;padding: 20px 20px 20px 20px;" >
+                                            </div>
+                                            </div>
+                                        </div>    
+                                    </div>
+                                                                     
+                                   
+                                </td>
+                                <td>
+                                    <div style="margin-left: 50px;">
+                                        <img src="p3.png" alt="" style="height: 100px ;width: 200px;" onclick="document.getElementById('idz3').style.display='block'">
+                                        <div id="idz3" class="w3-modal">
+                                            <div class="w3-modal-content">
+                                            <div class="w3-container">
+                                                <span onclick="document.getElementById('idz3').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                                                <img src="c3.jpg" alt="" style="width: 850px    ; height: 500px;padding: 20px 20px 20px 20px;" >
+                                            </div>
+                                            </div>
+                                        </div>                                        </div>
+                                </td>
+                                <td>
+                                    <div style="margin-left: 50px;">
+                                        <img src="p4.png" alt="" style="height: 100px ;width: 200px;" onclick="document.getElementById('idz4').style.display='block'">
+                                        <div id="idz4" class="w3-modal">
+                                            <div class="w3-modal-content">
+                                            <div class="w3-container">
+                                                <span onclick="document.getElementById('idz4').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                                                <img src="c4.jpg" alt="" style="width: 850px    ; height: 500px;padding: 20px 20px 20px 20px;" >
+                                            </div>
+                                            </div>
+                                        </div>                                        </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div style="margin-top: 20px;">
+                                        <img src="p5.png" alt="" style="height: 100px ;width: 200px;" onclick="document.getElementById('idz5').style.display='block'">
+                                        <div id="idz5" class="w3-modal">
+                                            <div class="w3-modal-content">
+                                            <div class="w3-container">
+                                                <span onclick="document.getElementById('idz5').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                                                <img src="c5.jpg" alt="" style="width: 850px    ; height: 500px;padding: 20px 20px 20px 20px;" >
+                                            </div>
+                                            </div>
+                                        </div>                                        </div>
+                                </td>
+                                <td>
+                                    <div style="margin-left: 50px;margin-top: 20px;">
+                                        <img src="p6.png" alt="" style="height: 100px ;width: 200px;" onclick="document.getElementById('idz6').style.display='block'">
+                                        <div id="idz6" class="w3-modal">
+                                            <div class="w3-modal-content">
+                                            <div class="w3-container">
+                                                <span onclick="document.getElementById('idz6').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                                                <img src="c6.jpg" alt="" style="width: 850px    ; height: 500px;padding: 20px 20px 20px 20px;" >
+                                            </div>
+                                            </div>
+                                        </div>                                        </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="700" style="margin-left: 300px;border: #fff;margin-right: 300px;background-color: #fff; font-weight: bold;" >
+    <ul class="nav navbar-nav">
+        <li ><a href="#" style="margin-left: 60px;">
+            <img src="affix-cover.png" alt="" >
+            <p style="color: #0066FF;">Giới thiệu</p></a></li>
+        <li><a href="#" style="margin-left: 60px;">
+            <img src="affix-360.png" alt="">
+            <p style="color: #0066FF;">Cảm nhận 360</p>
+        </a></li>
+        <li><a href="#" style="margin-left: 60px;">
+            <img src="affix-gallery.png" alt="">
+            <p style="color: #0066FF;">Hình ảnh</p>
+        </a></li>
+        <li><a href="#" style="margin-left: 60px;">
+            <img src="affix-review-active.png" alt="">
+            <p style="color: #0066FF;">Đánh giá xe</p>
+        </a></li>
+        <li><a href="#" style="margin-left: 60px;">
+            <img src="affix-spec.png" alt="">
+            <p style="color: #0066FF;">Thông số xe</p>
+        </a></li>
+        <li><a href="#" style="margin-left: 60px;">
+            <img src="affix-catalog.png" alt="">
+            <p style="color: #0066FF;">Tải Catelog</p>
+        </a></li>
+        <div style="margin-top: 30px;margin-right: 1px;margin-left: 10px;">
+            <img src="GRAND-I10_logo.png" alt="" >
+            <hr>        
+        </div>
+        <li style="padding: 0px 10px;" >
+            <a href="#noibat1" style="color: #0066FF;">Nổi bật</a>
+        </li>
+        <li style="padding: 0px 10px;">
+            <a href="#noithat1" style="color: #0066FF;">Nội thất</a> 
+        </li>
+        <li style="padding: 0px 10px;">
+            <a href="#ngoaithat1" style="color: #0066FF;">Ngoại thất</a>
+        </li>
+        <li style="padding: 0px 10px;">
+            <a href="#vanhanh1" style="color: #0066FF;">Vận hành</a>  
+        </li>
+        <li style="padding: 0px 10px;">
+            <a href="#antoan1" style="color: #0066FF;">An toàn</a> 
+        </li>
+        <li style="padding: 0px 10px;">
+            <a href="#tiennghi1" style="color: #0066FF;">Tiện nghi</a> 
+        </li>
+    </ul>
+    
+    </nav>
+
+
+
+    <div class="dl">
+        <div>Đặt lịch bảo dưỡng</div>
+    </div>
+    <div class="dk">
+        <div>Đăng ký lái thử</div>
+    </div>
+    <div class="fb">
+        <div style="margin-left: 5px;" >
+            <img src="yt.jpg" alt=""style="width: 40px;">
+        </div>  <br>
+        <div style="margin-top: -25px;">
+            <img src="fb.jpg" alt="" style="width: 50px;">
+        </div>
+
+    </div>
+    <div class="relative" >
+        <div class="fixed">
+            <img src="phone.png" alt="" style="height: 40px;height: 40px;margin-left: -30px; margin-top: 5px;">
+            
+                1900 988 978
+           
+        </div>
+    </div>
+    <div class="noibat" id="noibat1">
+        <div>
+            <div style="text-align: center;margin-left: 300px; margin-right: 300px;">
+                    <p class="order">NỔI BẬT</p>
+                    <hr style="margin-top: -15px;height: 3px;"  width="15%" size="10px"   color="#0066FF" />
+                <p style="font-size: 35px; font-weight: bold;">KHÔNG GIAN RỘNG RÃI TRONG MỘT THIẾT KẾ NHỎ GỌN</p>
+                <div>
+                    <p class="textq">Grand i10 sở hữu kích thước lớn hàng đầu phân khúc, đem đến một không gian thỏa mái tối đa cũng như phong cách năng động cho chủ nhân. Bên cạnh đó, những công nghệ hàng đầu được trang bị trên xe giúp cho trải nghiệm lái xe càng trở nên thú vị</p>
+                </div>
+            </div>
+        <table>
+            <tr>
+                <td>
+                    <div>
+                        <img src="nb1.jpg" alt="" style="height: 450px; width: 500  px;">
+                    </div>
+                </td>
+                <td>
+                    <div style="text-align: center;">
+                        <p style="font-size: 24px;text-align: center;">THIẾT KẾ ẤN TƯỢNG</p>
+                        <p style="color:#666;text-align:center;font-size: 15px;line-height: 1.7;">Grand i10 2017 gây ấn tượng bởi vẻ ngoài mạnh mẽ, thể thao hơn với điểm nhấn là lưới tản nhiệt được thiết kế mới phong cách Thác nước cùng dải đèn LED chạy ban ngày Daytime Running Lights (DRL).</p>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <img src="nb2.jpg" alt="" style="height: 450px; width: 500  px;">
+                    </div>
+                </td>
+            </tr>
+        </table>
+            
+            <div class="nb3">
+                <img src="nb3.png" alt="" style="height: 550px;">
+            </div>
+                
+           
+        <div >
+            <img src="nb4.jpg" alt="" style="height: 450px; width: 1600px;">
+            <div class="nb4">
+                <p class="nt01">Phong cách thể thao với lưới tản nhiệt được thiết kế mới <br> theo phong cách “Thác nước”</p>
+            </div>
+        </div>
+        <div class="NB5">
+            <img src="nb5.jpg" alt="" style="height: 450px; width: 1600px;">
+            <div class="nb5">
+                <p  class="nt01">Phong cách thể thao không thể nhầm lẫn</p>
+            </div>
+        </div>
+        <div class="nb67">
+            <table>
+                <div>
+                    <td>
+                        <div>
+                            <img src="nb6.jpg" alt="" style="margin-top: 15px;">
+                            <p style="font-size: 30px;color: #333;line-height: 130%;text-align: left;">Không gian chứa đồ rộng rãi</p>
+                            <p class="send">Grand i10 sở hữu không gian chứa đồ lớn nhất phân khúc, giúp bạn chở được tối đa số hành lí cho những chuyến đi cùng với cả gia đình.</p>
+                        </div>
+                    </td>
+                    <td>
+                        <div style=" margin-left: 20px;">
+                            <img src="nb7.jpg" alt="" style="margin-top: 15px;">
+                            <p style="font-size: 30px;color: #333;line-height: 130%;text-align: left;">An toàn tối đa</p>
+                            <p class="send">Grand i10 được trang bị 2 túi khí cho ghế lái và ghế phụ, đảm bảo an toàn tối đa cho hành khách trong trường hợp xảy ra va chạm.</p>
+                        </div>
+                    </td>
+                </div>
+            </table>
+        </div>
+        </div>
+    </div>
+
+
+    <div class="ngoaithat" id="ngoaithat1" >
+        <div style="text-align: center; margin-left: 300px;">
+            <p class="order">NGOẠI THẤT</p>
+            <hr style="margin-top: -15px;height: 3px;"  width="20%" size="10px"   color="#0066FF" />
+
+            <p  style="font-size: 26px;text-align: center;margin-top: 60px;">ẤN TƯỢNG TỪ CÁI NHÌN ĐẦU TIÊN </p>
+            <p class="textq">Mọi đường nét trên Grand i10 đều để lại ấn tượng về sự cá tính, thời trang và phong cách.</p>
+        </div>
+        
+           
+                    <div style="margin-left: 250px;">
+                        <img src="ngoaithat1.png" alt="">
+                    </div>
+             
+        <table class="tbnt" style="margin-left:300px" >
+            <tr>
+                <td>
+                    <div>
+                        <img src="nt2.jpg" alt="" style="width: 500px;">
+                    </div>
+                    <div style="width: 500px;">
+                        <strong class="damtrang"> <p >Đèn pha</p></strong>
+                        <p class="send1" style="width: 500px;">Cụm đèn pha chiếu sáng của Grand i10 được thiết kế trang nhã, hài hòa với tổng thể của chiếc xe đồng thời đảm bảo độ sáng tối đa.</p>
+                    </div>
+                </td>
+                <td>
+                    <div style="margin-left:30px ;">
+                    <div>
+                        <img src="nt3.jpg" alt="" style="width: 500px;">
+                    </div>
+                    <div>
+                        <strong class="damtrang"> <p >Cụm đèn LED ban ngày mới</p></strong>
+                        <p class="send1" style="width: 500px;">Cụm đèn LED chạy ban ngày mới (Daytime Running Lights) trên Grand i10 đem đến vẻ thể thao đậm nét cho chiếc xe.</p>
+                    </div>
+                </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="nt4 .jpg" alt="" style="width: 500px;">
+                    <strong class="damtrang"> <p >Cụm lưới tản nhiệt mới</p></strong>
+                    <p class="send1" style="width: 500px;">Grand i10 2017 được tái thiết kế cản sau với tấm nền màu đen cùng 2 tấm phản quang màu đỏ nổi bật, giúp tăng vẻ thể thao, năng động cho xe.</p>
+                </td>
+            </tr>
+        </table>
+            <div style="margin-left:300px">
+                    <p style="font-size: 24px;">CHIẾC XE ĐÔ THỊ HÀNG ĐẦU            </p>
+                    <p class="send1">Sở hữu những đường nét thiết kế mạnh mẽ và đậm nét cá tính, Grand i10 2017 được nâng tầm đẳng cấp của một chiếc xe đô thị hàng đầu. </p>
+                    <div style="margin-left: -100px;">
+                        <img src="ngoaithat2.png" alt="">
+                    </div>
+            </div>
+        <table style="margin-left: 300px;">
+            <tr>
+                <td>
+                    <div style="width: 500px;">
+                        <img src="nt5.jpg" alt="" style="width: 500px;">
+                    </div>    
+                    <div style="width: 500px;">
+                        <p><strong class="damtrang"> Gương chiếu hậu tích hợp xinhan dạng LED</strong></p>
+                        <p class="send1" style="width: 500px;">Hyundai Grand i10 sở hữu gương điều khiển điện, tích hợp báo rẽ dạng LED mang đến vẻ hiện đại cũng như đảm bảo an toàn khi chuyển hướng cho xe.</p>
+                    </div>
+                </td>
+                <td>
+                    <div style="margin-left: 30px;margin-top:-20px;">
+                        <div >
+                            <img src="nt6.jpg" alt="" style="width:500px">
+                        </div>
+                        <div >
+                            <p><strong class="damtrang"> Ốp hông thể thao</strong></p>
+                            <p class="send1" style="width: 500px;">Grand i10 2017 sở hữu tấm ốp hông tăng thêm vẻ thể thao, cá tính và năng động cho xe.</p>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div >
+                        <img src="nt7.jpg" alt="" style="width: 500px;">
+                    </div>
+                    <div style="width: 500px;">
+                        <p><strong class="damtrang">LAZANG DIAMOND CUT</strong></p>
+                        <p class="send1" style="width: 500px;">Grand i10 sở hữu bộ lazang hợp kim kích cỡ 14 inch Diamond cut, tạo nên vẻ cá tính và thời trang cho chiếc xe và chủ sở hữu.</p>
+                    </div>
+                </td>
+            </tr>
+           </table>
+
+                    <div style="text-align: center; margin-left: 300px; margin-right: 300px;margin-top: 50px;">
+                        <div style="text-align: center; margin-left: 150px; font-size: 24px;">
+                            <p  >CHIẾC XE ĐÔ THỊ HÀNG ĐẦU</p>
+                            <p class="textq">Sở hữu những đường nét thiết kế mạnh mẽ và đậm nét cá tính, Grand i10 2017 được nâng tầm đẳng cấp của một chiếc xe đô thị hàng đầu.</p>
+                        </div>
+                    <img src="ngoaithat3.png" alt="">
+                </div>
+            <table style="margin-left: 300px;">
+            <tr>
+                <td>
+                    <div>
+                        <img src="nb8.jpg" alt="" style="width: 500px;">
+                    </div>
+                    <div>
+                        <p><strong class="damtrang">Sấy kính sau</strong></p>
+                        <p class="send1" style="width: 500px;"> Grand i10 sở hữu kính sau tích hợp chức năng sấy điện, giúp đảm bảo tầm nhìn phía sau cho người lái trong điều kiện trời sương mù hoặc có mưa.</p>
+                    </div>
+                </td>
+                <td>
+                    <div style="margin-left: 30px ;width: 500px;">
+                        <div >
+                            <img src="nb9.jpg" alt="" style="width: 500px;">
+                        </div>
+                        <div>
+                            <p><strong class="damtrang">Đèn hậu kích cỡ lớn</strong></p>
+                            <p class="send1" style="width: 500px;">Grand i10 sở hữu cụm đèn hậu kích cỡ lớn, được bố trí ở vị trí thuận tiện dễ quan sát, nhằm tăng độ nhận diện từ xa, giúp đảm bảo an toàn khi vận hành.</p>
+                        </div>
+                    </div>
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div style="width: 500px;">
+                        <div>
+                            <img src="nb10.jpg" alt="" style="width: 500px;">
+
+                        </div>
+                        <div>
+                            <p><strong class="damtrang">Cản sau thiết kế mới với 2 tông màu</strong></p>
+                            <p class="send1" style="width: 500px;">Grand i10 2017 được tái thiết kế cản sau với tấm nền màu đen cùng 2 tấm phản quang màu đỏ nổi bật, giúp tăng vẻ thể thao, năng động cho xe.</p>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            </table>
+            <table style="margin-left: 300px;">
+            <tr>
+                <td>
+                    <div style="width: 320px;">
+                        <img src="nt15.jpg" alt="" ><br>
+                        <p class="dennho">Đèn sương mù</p>
+                        <p class="send" style="width: 320px;">Đèn sương mù của Grand i10 được đặt thấp ở phần cản trước, giúp tăng đảm bảo ánh sáng trong điều kiện vận hành có sương mù.</p>
+                    </div>
+                </td>
+                <td>
+                <div style="width: 320px; margin-left: 20px;">
+                    <img src="nt16.jpg" alt=""><br>
+                    <p class="dennho">Hốc hút gió trước</p>
+                    <p class="send">Hốc hút gió phía trước nhằm giảm đáng kể sức cản của gió đồng thời giảm nhiệt la-zăng, lốp, giúp tăng cường khả năng vận hành ổn định và an toàn.</p>
+                </div>
+                </td>
+                <td>
+                    <div style="width: 320px; margin-left: 20px;">
+                        <img src="nt17.jpg" alt="" style="margin-top: -50px;"><br>
+                        <p class="dennho">Tay nắm cửa mạ Crom</p>
+                        <p class="send">Tay nắm cửa mạ Crom trên Grand i10 tạo nên vẻ lịch lãm, sang trọng cho chiếc xe.</p>
+                    </div> 
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div style="width: 320px;">
+                        <img src="nt18.jpg" alt=""><br>
+                        <p class="dennho">Tấm phản quang phía sau</p>
+                        <p class="send">Tấm phản quang đuôi xe được thiết kế mới, kết hợp cùng cản sau màu đen tạo nên vẻ nổi bật và mạnh mẽ cho Grand i10</p>
+                    </div>
+                </td>
+                <td>
+                    <div style="width: 320px; margin-left: 20px;">
+                        <img src="nt19.jpg" alt=""><br>
+                        <p class="dennho">Gạt mưa kính sau</p>
+                        <p class="send">Grand i10 được trang bị gạt mưa ở kính sau, giúp làm sạch tấm kính tăng khả năng quan sát của lái xe.</p>
+                    </div>
+                </td>
+                <td>
+                    <div style="width: 320px; margin-left: 20px;">
+                        <img src="nt20.jpg" alt="" style="margin-top: 20px;"><br>
+                        <p class="dennho">Đèn phanh trên cao</p>
+                        <p class="send">Xe được trang bị đèn phanh trên cao dạng LED, giúp nhanh chóng cảnh báo cho phương tiện phía sau biết khi bạn thực hiện phanh, dừng trong khi lưu thông.</p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+
+    <div class="noithat" id="noithat1" >
+        <div style="text-align: center;">
+            <p class="order">NỘI THẤT</p>
+            <hr style="margin-top: -15px;height: 3px;"  width="15%" size="10px"   color="#0066FF" />
+
+            <p style="font-size: 26px;">KHÔNG GIAN NỘI THẤT ẤN TƯỢNG</p>
+            <p class="textq">Grand i10 sở hữu không gian nội thất rộng rãi, kết hợp cùng phong cách thiết kế cá tính với những màu sắc trẻ trung tạo nên vẻ ấn tượng không thể trộn lẫn.</p>
+            <img src="noi1.jpg" alt="">
+                <p style="font-size: 24px;">Tiện nghi hàng đầu    </p>
+                <p style="font-size:1.4em;line-height: 20px;color: #888;">Grand i10 sở hữu những tính năng tiện ích cao cấp hàng đầu phân khúc,
+                    giúp đáp ứng những đòi hỏi khắt khe nhất của chủ sở hữu.</p>
+        </div>    
+        <table>
+            <tr>
+                <td>
+                    <div style="width: 500px;">
+                        <img src="noi3.jpg" alt="" style="width: 500px;">
+                        <div >
+                            <p><strong class="damtrang">Ngăn chứa đồ có chức năng làm mát</strong></p>
+                            <p class="send">Grand i10 được trang bị ngăn chứa đồ có chức năng làm mát, giúp những món đồ ăn, đồ uống của bạn luôn trong tình trạng tươi ngon sẵn sàng để thưởng thức.</p>
+                        </div>
+                    </div>
+               
+                </td>
+              
+                
+                <td>
+                    <div style="margin-left: -50px;margin-top: 45px;">
+                        <div style="width: 500px;">
+                            <div>
+                            <img src="noi4.jpg" alt="" style="width: 500px;margin-top: -20px;">
+                        </div>  
+                        <div >
+                            <p><strong class="damtrang">Màn hình trung tâm cảm ứng 7 inch</strong></p>
+                            <p class="send"> Grand i10 sở hữu màn hình cảm ứng trung tâm kích cỡ 7 inch, hỗ trợ giải trí nghe nhạc Mp3/Radio/Bluetooth/Usb/AUX, xem phim Mp4 FullHD cùng bản đồ tích hợp được phát triển dành riêng cho thị trường Việt Nam.</p>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="noi5.jpg" alt="" style="width: 500px;">
+                    <p><strong class="damtrang">Vô lăng tích hợp phím chức năng</strong></p>
+                    <p class="send">Grand i10 sở hữu vô lăng tích hợp các phím chức năng, giúp người lái dễ dàng điều chỉnh các thông số cũng như tăng giảm âm lượng, chuyển bài hát, đảm bảo an toàn khi vận hành.</p>
+                </td>
+            </tr>
+            </table>
+            <table>
+            <tr>
+                <td>
+                    <img src="noi6.jpg" alt=""style="width: 320px;"><br>
+                    <p class="dennho">Túi tài liệu sau ghế</p>
+                    <p class="send1" style="width: 320px;"></p>Túi tài liệu được thiết kế liền mạch tại mặt lưng ghế hàng ghế trước, giúp bạn có thể để những cuốn sách và tạp chí yêu thích.</p>
+                </td>
+                <td>
+                    <div style="margin-left: 30px;">
+                        <img src="noi7.jpg" alt=""style="width: 320px;"><br>
+                        <p class="dennho">Ghế điều chỉnh độ cao</p>
+                        <p class="send1" style="width: 320px;"></p>Hệ thống bơm hơi trên xe có cơ cấu đơn giản và hiệu quả giúp ghế người lái có thể điều chỉnh độ cao để giúp đạt tới vị trí như mong muốn.</p>
+                    </div>
+                </td>
+                <td>
+                    <div style="margin-left: 30px;">
+                        <img src="noi8.jpg" alt=""style="width: 320px;"><br>
+                        <p class="dennho">Giá để cốc trung tâm</p>
+                        <p class="send1" style="width: 320px;"></p> Grand i10 được trang bị giá để cốc trung tâm có vị trí thuận lợi, giúp để những món đồ hay đồ uống ưa thích của bạn một cách dễ dàng.</p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="vanhanh" id="vanhanh1">
+        <div class="vanhanh1">
+            <p class="order">VẬN HÀNH</p>
+            <hr style="margin-top: -15px;height: 3px;"  width="15%" size="10px"   color="#0066FF" />
+
+            <p  style="font-size: 26px;color: #222;font-size: 3rem; margin-top: 26px;text-align: center;">KHẢ NĂNG VẬN HÀNH XUẤT SẮC</p>
+            <p class="send">Grand i10 được tối ưu với hệ thống khung gầm, động cơ, hộp số đem đến khả năng vận hành xuất sắc, cân bằng giữa những yếu tố bền bỉ và tiết kiệm.</p>
+        </div>
+        <div>
+            <p style="clear:both;font: size 2em;color:#222;line-height: 33px;font-weight: bold">Động cơ Kappa 1.2L    </p>
+            <p class="send1">Cung cấp công suất 87 mã lực tại 6.000 vòng/phút cùng Momen xoắn cực đại 120Nm tại 4.000 vòng/phút với mức khí thải CO2 tối thiểu nhờ công nghệ điều khiển van biến thiên (CVVT)</p>
+        </div>
+        <table>
+            <tr>
+                <td>
+                    <img src="vantoc.jpg" alt="">
+                </td>
+                <td>
+                    <img src="v2.jpg" alt="">
+                </td>
+            </tr>
+            </table>
+            <table>
+            <tr>
+                <td>
+                    <img src="v4.jpg" alt="" style="width: 320px;"><br>
+                    <p class="dennho">Hộp số sàn</p>
+                    <p class="send" style="width: 320px;">Gồm 5 cấp số với các bước chuyển số được tinh chỉnh làm tăng khả năng phản ứng và sự nhạy bén khi di chuyển, đồng thời giúp tiết kiệm nhiên liệu tối đa.</p>
+                </td>
+                <td>
+                    <div style="margin-left :30px; margin-top: 25px;">
+                        <img src="v5.jpg" alt="" style="width: 320px; "><br>
+                        <p class="dennho">Hộp số tự động</p>
+                        <p class="send" style="width: 320px;">Gồm 4 cấp số đảm bảo sự kết hợp hoàn hảo giữa tính năng vận hành mạnh mẽ, tiết kiệm nhiên liệu cùng sự bền bỉ bằng các công nghệ tiên tiến nhất như van điện từ và bộ chuyển đổi momen xoắn phẳng.</p>
+                    </div>
+                </td>
+                <td>
+                    <div style="margin-left :30px; margin-top: -25px;">
+                        <img src="v6.jpg" alt=""  style="width: 320px;"><br>
+                        <p class="dennho">Đồng hồ hiển thị cấp số  </p>
+                        <p class="send" style="width: 320px;">Đồng hồ điện tử hiện thị cấp số hiện hành giúp bạn chủ động trong việc điều khiển xe hơn.</p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="antoan" id="antoan1">
+        <div style="margin-left: 300px;margin-right: 300px;" >
+
+            <div style="text-align: center;">
+                <p class="order">AN TOÀN</p>
+                                    <hr style="margin-top: -15px;height: 3px;"  width="15%" size="10px"   color="#0066FF" />
+
+                <p  style="font-size: 24px;">CÔNG NGHỆ AN TOÀN HÀNG ĐẦU</p>
+                <p class="send">Grand i10 sở hữu không gian nội thất rộng rãi, kết hợp cùng phong cách thiết kế cá tính với những màu sắc trẻ trung tạo nên vẻ ấn tượng không thể trộn lẫn.</p>
+            </div>
+                    <div >
+                
+                        <p>Túi khí đôi</p>
+                        <p class="send">Grand i10 hoàn toàn làm hài lòng những người khó tính nhất bằng công nghệ an toàn chủ động với túi khí dành cho lái xe và hành khách, giúp đảm bảo an toàn tránh chấn thương trong trường hợp va chạm.</p>
+                    <img src="an2.jpg" alt="">
+                </div>
+            </div>   
+                        <div style="width: 1650px;height: 750px;">
+                            <img src="bgantoan.jpg" alt="" style="width: 1650px;">  
+                        </div>
+                        <div style="margin-top: -680px;margin-left: 150px;">
+                            <p style="display:block;font-size: 15px;font-weight: bold;line-height: 34px;color: #000;font-family: Arial, Helvetica, sans-serif;">Hệ thống hỗ trợ khởi hành ngang dốc <br> HAC</p>
+                            <p class="send1" style="width: 400px;">Hệ thống HAC sẽ giúp chiếc xe giữ nguyên vị trí đang dừng khi xe đỗ ở ngang dốc, xe sẽ di chuyển khi tài xế chuyển sang bàn đạp ga giúp bạn dễ dàng tiếp tục cuộc hành trình mà không lo xe bị tụt dốc.</p>
+                        </div>
+            
+            <table style="margin-top: 500px; margin-left: 300px;">       
+                <div >
+                    <tr>
+                        <td>
+                            <div style="margin-top: -20px;">
+                                <img src="an4.jpg" alt=""style="width: 320px;"><br>
+                                <p class="dennho">Cửa sổ điều chỉnh điện</p>
+                                <p style="color:#656565;font-size: 14px;line-height: 20px; width: 320px;">Bộ điều khiển điện cửa sổ được đặt bên ghế lái giúp bạn dễ đàng điều khiển cửa sổ cũng như đóng mở cửa ra vào.</p>
+                            </div>
+                        </td>
+                        <td >
+                            <div style="margin-left: 30px;">
+                                <img src="an5.jpg" alt="" style="width: 320px;"><br>
+                                <p class="dennho">Sấy kính sau</p>
+                                <p style="color:#656565;font-size: 14px;line-height: 20px;width: 320px;">Grand i10 sở hữu kính sau tích hợp chức năng sấy điện, giúp đảm bảo tầm nhìn phía sau cho người lái trong điều kiện trời sương mù hoặc có mưa.</p>
+                            </div>
+                        </td>
+                        <td>
+                            <div style="margin-left: 30px;">
+                                <img src="an6.jpg" alt="" style="width: 320px;"><br>
+                                <p class="dennho"   >Cửa sổ an toàn chống kẹt</p>
+                                <p style="color:#656565;font-size: 14px;line-height: 20px;width: 320px;   ">Grand i10 được trang bị cửa sổ với cảm biến chống kẹt tự động, giúp chiếc xe an toàn hơn trong trường hợp gặp chướng ngại vật khi kéo gương.</p>
+                            </div>
+                        </td>
+                    </tr>
+                </div>
+            </table>
+        </div>
+    </div>
+
+    <div class="tiengnhi" id="tiennghi1">
+        <div style="text-align: center;">
+            <p class="order">TIỆN NGHI</p>
+            <hr style="margin-top: -15px;height: 3px;"  width="15%" size="10px"   color="#0066FF" />
+            <p  style="font-size: 26px; text-align: center;color: #222;">NHỮNG CÔNG NGHỆ ĐỈNH CAO <br>
+                TÍCH HỢP TRONG MỘT CHIẾC XE NHỎ GỌN</p>
+            <p class="send">Những chuyến hành trình của bạn sẽ trở nên thú vị hơn với những công nghệ tiện ích được trang bị bên trong Grand i10</p>
+        </div>
+        <div  >
+            <table>
+                <tr>
+                    <td>
+                        <div style="width: 500px;">
+                            <img src="tien2.jpg" alt=""  style="width: 500px;">
+                            <p ><strong class="damtrang">Hệ thống hỗ trợ đỗ xe RPAS</strong></p>
+                            <p class="send">Hệ thống hỗ trợ đỗ xe RPAS (Rear Parking Assist System) gồm 4 cảm biến phía sau giúp phát hiện những chướng ngại vật, hỗ trợ bạn đỗ xe một cách an toàn và nhanh chóng.</p>
+                        </div>
+                    </td>
+                    <td>
+                        <div style="width: 500px; margin-left: 30px;margin-top: 45px;">
+                            <img src="tien3.jpg" alt=""  style="width: 500px;">
+                            <p><strong class="damtrang">Màn hình trung tâm cảm ứng 7 inch </strong></p>
+                            <p class="send">Grand i10 sở hữu màn hình cảm ứng trung tâm kích cỡ 7 inch, hỗ trợ giải trí nghe nhạc Mp3/Radio/Bluetooth/Usb/AUX, xem phim Mp4 FullHD cùng bản đồ tích hợp được phát triển dành riêng cho thị trường Việt Nam.</p>
+                        </div>
+                    </td>
+                </tr>
+                </table>
+                <table>
+                <tr>
+                    <td>
+                        <div style="margin-top:30px ;">
+                            <img src="tien4.jpg" alt="" style="width: 320px;"><br>
+                            <p class="dennho">Chìa khóa thông minh & Khởi động nút bấm</p>
+                            <p style="color:#656565;font-size:  14px;line-height: 20px;width: 320px;" >Chìa khóa thông minh giúp chủ xe có thể dễ dàng vào trong xe với chỉ một nút bấm trên tay nắm cửa. Nút khởi động Start/Stop Engine giúp việc khởi động hoặt tắt máy đơn giản hơn bao giờ hết với chỉ 1 nút bấm.</p>
+                        </div>
+                    </td>
+                    <td>
+                        <div style="margin-left: 30px;margin-top:-30px ;">
+                            <img src="tien5.jpg" alt=""style="width: 320px;"><br>
+                            <p class="dennho">Khay để đồ phía sau</p>
+                            <p style="color:#656565;font-size: 14px;line-height: 20px;width: 320px;" >Khay để đồ phía sau giúp bạn thuận tiện để vật dụng cá nhân</p>
+                        </div>
+                    </td>
+                    <td>
+                        <div style="margin-left: 30px;margin-top: -10px;">
+                            <img src="tien6.jpg" alt=""style="width: 320px;"><br>
+                            <p class="dennho">Đèn chiếu sáng cốp</p>
+                            <p style="color:#656565;font-size:  14px;line-height: 20px;width: 320px; ">Cốp xe Grand i10 được trang bị đèn chiếu sáng, giúp bạn dễ dàng lấy hoặc sắp đặt hành lí trong điều kiện ánh sáng không tốt hoặc vào ban đêm.</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div>
+                            <img src="tien7.jpg" alt=""style="width: 320px;"><br>
+                            <p class="dennho">Vô lăng chỉnh hướng</p>
+                            <p class="send1">Vô lăng của Hyundai Grand i10 có khả năng điều chỉnh 4 hướng, giúp người lái dễ dàng tìm được tư thế thỏa mái nhất. Tay lái của xe cũng được tích hợp nút điều khiển chức năng làm tăng tính tiện nghi, an toàn và thuận tiện.</p>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+    <div class="body1">
+        <table style="margin-left: 100px; color: white;" class="s2">
+            <tr>
+                <td><img src="daily-logo-footer.png" alt="0" style="height:100px;width: 350px;"> </td>
+                <td class="ha">HÌNH ẢNH <br><hr></td>
+                <td class="bv">BÀI VIẾT GẦN ĐÂY   <hr></td>
+                <td class="fb1">FACEBOOK <br><hr></td>
+                
+            </tr>
+            <tr>
+            <td style=" width: 350px;">
+                <div>
+                <p>Hyundai An Phú - Đại lý ủy quyền chính thức của Hyundai Thành Công là địa điểm trưng bày các dòng xe mới nhất của Hyundai. </p>
+                <p>Tọa lạc tại trung tâm Thành Phố Hồ Chí Minh với các Showroom chuẩn 1S, 2S hiện đại, cùng đội ngũ chuyên viên tư vấn giàu kinh nghiệm.</p>
+                <p>Hyundai An Phú mang sứ mệnh phục vụ khách hàng trên Toàn quốc, giúp khách hàng có những trải nghiệm ấn tượng về sản phẩm - dịch vụ cao cấp của chúng tôi.</p>
+                <p>Liên hệ ngay để được tư vấn và nhận các chương trình ưu đãi hấp dẫn</p>
+                </div>
+            </td>
+
+            <td style=" width: 350px;" class="ha">
+                   <img src="181218_Gioi-thieu-showroom.jpg" alt="" style="height: 50px; width: 100px;" class="q2">                    
+
+            </td>
+
+            <td style=" width: 350px;" class="bv">
+                <div class="q3">
+                    <div class="s31" style="width:200px">
+                        <img src="1.png" alt="" style="height: 50px; width: 100px;">
+                        <div class="q1">CHƯƠNG TRÌNH GIA HẠN BẢO HÀNH “HYUNDAI CARE”</div>
+                    </div >
+                    <div class="s32" style="width:200px">
+                        <img src="2.png" alt="" style="height: 50px; width: 100px;">
+                        <div class="q1"> KHỞI SẮC ROADSHOW THÁNG 06 TẠI HYUNDAI AN PHÚ</div>
+                    </div>
+                    <div class="s33" style="width:200px">
+                        <img src="3.png" alt="" style="height: 50px; width: 100px;">
+                        <div class="q1"> ĐÓN XE SANG CÙNG HYUNDAI AN PHÚ - ƯU ĐÃI LÊN ĐẾN 80 TRIỆU</div>
+                    </div>
+                </div>
+            </td>
+
+            <td style=" width: 350px;" class="fb1">
+                <img src="fb.png" alt="" style="height: 200px; width: 300px" class="q4"> 
+            </td>
+        </tr>
+            
+            
+        </table>
+        <table style="margin-left: 100px; color: white;" class="s1">
+        <td style="height:100px;width: 350px;">
+            <div class="">
+                <img src="icon-market.svg" alt="" style="height: 25px;width: 25px;">
+                <div class="w1"><strong> Showroom 2S: 1052 Nguyễn Văn Linh, P.Tân Phong, Quận 7, TP.HCM </strong></div>
+            </div>
+        </td>
+        <td style="height:100px;width: 400px;">
+            <div class="a1">
+                <img src="icon-market.svg" alt="" style="height: 25px;width: 25px;">
+                <div class="w1"><strong> Showroom 1S: 5A Nguyễn Thị Minh Khai, P.Bến Nghé, Quận 1, TP.HCM </strong></div>
+            </div>
+        </td>
+        <td style="height:100px;width: 400px;">
+            <div class="a2">
+                <img src="icon-contact.svg" alt="" style="height: 40px;width: 40px;">
+                <div class="w3"><strong>   iconinfo@anphuhyundai.com.vn</strong></div>
+            </div>
+        </td>       
+        
+        </table>   
+        <hr style="color: aliceblue;" > 
+        <div style="color: aliceblue; margin-left: 700px;">
+        COPYRIGHT ©IDOCNET 2018
+        <br>
+
+        </div>
+    </div>
+</body>
+</html>
