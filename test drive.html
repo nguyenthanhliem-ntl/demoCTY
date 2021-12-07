@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+<style>
+    .get-in-touch {
+  max-width: 800px;
+  margin-left: 400px;
+  position: relative;
+
+}
+.get-in-touch .title {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 15px;
+  line-height: 1.5px;
+  padding-bottom: 48px;
+     color: #5543ca;
+    background: #5543ca;
+    background: -moz-linear-gradient(left,#f4524d  0%,#5543ca 100%) !important;
+    background: -webkit-linear-gradient(left,#f4524d  0%,#5543ca 100%) !important;
+    background: linear-gradient(to right,#f4524d  0%,#5543ca  100%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+.contact-form .form-field {
+  position: relative;
+  margin: 32px 0;
+}
+.contact-form .input-text {
+  display: block;
+  width: 50%;
+  height: 36px;
+  border-width: 0 0 1px 0;
+  border-color: #16067e;
+  font-size: 18px;
+  line-height: 0.1px;
+  font-weight: 400;
+}
+.contact-form .input-text:focus {
+  outline: none;
+}
+.contact-form .input-text:focus + .label,
+.contact-form .input-text.not-empty + .label {
+  -webkit-transform: translateY(-24px);
+          transform: translateY(-24px);
+}
+.contact-form .label {
+  position: absolute;
+  left: 20px;
+  bottom: 11px;
+  font-size: 18px;
+  line-height: 0.1px;
+  font-weight: 400;
+  color: #5543ca;
+  cursor: text;
+  transition: -webkit-transform .2s ease-in-out;
+  transition: transform .2s ease-in-out;
+  transition: transform .2s ease-in-out, 
+  -webkit-transform .2s ease-in-out;
+}
+.contact-form .submit-btn {
+  display: inline-block;
+  background-color: #000;
+   background-image: linear-gradient(125deg,#a72879,#064497);
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px;
+  padding: 8px 16px;
+  border: none;
+  width:200px;
+  cursor: pointer;
+}
+</style>
+<body>
+    <div style="font-size: 15px;">
+        <p>ĐĂNG KÝ LÁI THỬ</p>
+        <hr>
+        <div>
+            <section class="get-in-touch">
+                
+                <p>Thông tin khách hàng</p>
+                <form class="contact-form row">
+                    
+                   <div class="form-field col-lg-12">
+                      <input id="name" class="input-text js-input" type="text" required placeholder="Họ tên">
+                   </div>
+                   
+                   <div class="form-field col-lg-12 ">
+                      <input id="company" class="input-text js-input" type="text" required placeholder="Di động">
+                   </div>
+                   <div class="form-field col-lg-12 ">
+                    <input id="company" class="input-text js-input" type="text" required placeholder="Email">
+                 </div>
+                 <div class="form-field col-lg-12 ">
+                    <input id="company" class="input-text js-input" type="text" required placeholder="Địa chỉ">
+                 </div>
+                   
+                   
+                </form>
+             </section>
+
+             <div style="margin-top: -460px;margin-left: 830px;line-height: 63px;">
+                 <div>
+                     <p>Lựa chọn dòng xe</p>
+                 </div>
+                 <div>
+                    <p>Chọn xe</p>
+                 </div>
+                 <div>
+                     <select name="dsd" id="">
+                         <option value="1">5A Nguyễn Thị Minh Khai, P.Bến Nghé, Q1</option>
+                         <option value="2">1052 Nguyễn Văn Linh, P.Tân Phong, Q7</option>
+
+                     </select><hr style="margin-top: 7px;" width="47.5%" align="left" color="black">
+                 </div>
+                 <div>
+                     <textarea name="â" id="1" cols="50" rows="1" placeholder="Ghi chú"></textarea>
+                 </div>
+                 
+             </div>
+             <div style="text-align: center;margin-top: 150px;">
+                <button style="background-color: blue;color:#fff; font-weight:bold; width: 100px;height: 50px">Đăng ký</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
